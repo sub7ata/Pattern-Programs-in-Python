@@ -1,14 +1,12 @@
 """
 Example:
 Enter the number of rows: 5
-5 5 5 5 5
-4 4 4 4
-3 3 3
-2 2
-1
+     A
+    CCC
+   EEEEE
+  GGGGGGG
+ IIIIIIIII
 """
 n = int(input("Enter the number of rows: "))
 for i in range(1, n + 1):
-    for j in range(1, n + 2 - i):
-        print(n + 1 - i, end=" ")
-    print()
+    print(" "*(n - i), (str(chr(64 + 2 * i - 1)+"")) * (2 * i - 1))

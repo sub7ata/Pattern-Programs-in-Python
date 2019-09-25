@@ -1,3 +1,13 @@
+"""
+Example:
+    Enter the number of row: 5
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
+"""
+
 #Case - 1
 
 #n = int(input("Enter the number of row: "))
